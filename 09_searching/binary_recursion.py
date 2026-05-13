@@ -16,7 +16,7 @@ values = random.sample(range(20, 40), 6)
 values = sorted(values) # sort the values
 print(f"List is {values}")
 user_input = int(input("Enter value to search : "))
-result = binary_recursion(values, user_input, 0, len(values)-1)
+result = binary_recursion(values, user_input, 0, len(values) - 1)
 if result > -1:
     print(f"Item {values[result]} found at index {result}")
 else:
